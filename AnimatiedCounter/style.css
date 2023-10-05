@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-content {
+  display: flex;
+  height: 620px;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(198, 191, 191);
+  /* background-color: blue; */
+}
+.main1 {
+  padding: 60px;
+  margin: 50px;
+  height: 100px;
+  width: 500px;
+  display: flex;
+  /* gap: 0px; */
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px rgb(123, 131, 133);
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-color: rgb(124, 135, 135);
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  box-shadow: 3px 3px 3px #a3b1bb;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+  box-shadow: 3px 3px 3px #a3b1bb;
+}
+.fa-linkedin {
+  background: #18a2d4;
+  box-shadow: 3px 3px 3px #a3b1bb;
+}
+
+.count {
+  padding: 8px;
+  margin: 5px 0 0 -6px;
+  /* color: #43384a; */
+  color: white;
+
+  /* gap: 20px; */
+}
+.span {
+  display: flex;
+  font: bold;
+  /* font-weight: 600; */
+  font-size: large;
+  color: white;
+  /* margin-left: 60px; */
+  margin: auto;
+  /* margin-bottom: 600px; */
+  margin: -30px 0 0 40px;
+  padding: 0px;
+}
+.all-counter {
+  /* display: flex; */
+  height: 20px;
+  width: 30px;
+  font-size: xx-large;
+  height: 20px;
+  width: 30px;
+  border-radius: 20px;
+}
+.para {
+  margin-top: 20px;
+  font-size: 20px;
+  font: bold;
+  color: #8a1bcf;
+}
+
